@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 export default class siteLinks extends Component {
     constructor(props) {
         super(props);
@@ -23,10 +23,13 @@ export default class siteLinks extends Component {
                             <Link className="nav-link" to="/features">Features</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/pricing">Pricing</a>
+                            <Link className="nav-link" to="/pricing">Pricing</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link disabled" href="/" tabIndex="-1" aria-disabled="true">Disabled</a>
+                            <Link className="nav-link" to="/testing">TEST</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link disabled" to="/" tabIndex="-1" aria-disabled="true">Disabled</Link>
                         </li>
                     </ul>
                 </div>

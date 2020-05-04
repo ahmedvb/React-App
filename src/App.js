@@ -5,6 +5,7 @@ import SiteTitle from "./components/SiteTitle/siteTitle";
 import Home from "./components/Home/Home";
 import Features from "./components/Features/Features";
 import Pricing from "./components/Pricing/Pricing";
+import Testing from "./components/Testing/Testing";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 class App extends Component {
   constructor(props) {
@@ -25,6 +26,9 @@ class App extends Component {
           </Route>
           <Route path="/pricing">
             <Pricing />
+          </Route>
+          <Route path="/testing">
+            <Testing />
           </Route>
         </Router>
       </div>
