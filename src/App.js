@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import TopLinks from "./components/siteLinks/siteLinks";
-import SiteTitle from "./components/SiteTitle/siteTitle";
-import Home from "./components/Home/Home";
-import Features from "./components/Features/Features";
-import Pricing from "./components/Pricing/Pricing";
-import Testing from "./components/Testing/Testing";
+import TopLinks from "./components/sitelinks/sitelinks";
+import SiteTitle from "./components/sitetitle/sitetitle";
+import Home from "./components/home/home";
+import Features from "./components/features/features";
+import Pricing from "./components/pricing/pricing";
+import Testing from "./components/testing/testing";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 class App extends Component {
   constructor(props) {
