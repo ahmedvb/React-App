@@ -7,6 +7,7 @@ import Features from "./components/features/features";
 import Pricing from "./components/pricing/pricing";
 import Testing from "./components/testing/testing";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import Download from './components/Download/Download';
 class App extends Component {
   constructor(props) {
     super(props);
@@ -29,6 +30,9 @@ class App extends Component {
           </Route>
           <Route path="/testing">
             <Testing />
+          </Route>
+          <Route path="/download">
+            <Download />
           </Route>
         </Router>
       </div>

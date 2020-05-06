@@ -29,7 +29,7 @@ export default class siteLinks extends Component {
                             <Link className="nav-link" to="/testing">TEST</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link disabled" to="/" tabIndex="-1" aria-disabled="true">Disabled</Link>
+                            <Link className="nav-link" to="/download" tabIndex="-1">Download</Link>
                         </li>
                     </ul>
                 </div>
