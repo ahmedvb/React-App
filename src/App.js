@@ -8,6 +8,7 @@ import Pricing from "./components/Pricing/Pricing";
 import Testing from "./components/Testing/Testing";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Download from './components/Download/Download';
+import Employees from "./components/employeesList";
 class App extends Component {
   constructor(props) {
     super(props);
@@ -33,6 +34,9 @@ class App extends Component {
           </Route>
           <Route path="/download">
             <Download />
+          </Route>
+          <Route path="/employee">
+            <Employees />
           </Route>
         </Router>
       </div>
