@@ -31,6 +31,9 @@ export default class siteLinks extends Component {
                         <li className="nav-item">
                             <Link className="nav-link" to="/download" tabIndex="-1">Download</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/employee" tabIndex="-1">Employees</Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
